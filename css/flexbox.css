@@ -56,6 +56,8 @@
 } 
 
 
+/* mobile */
+
 @media (min-width: 834px) {
     .cabecalho__pesquisar__item {
         display: block;
@@ -65,4 +67,23 @@
         justify-content: space-between;
     }
     
+}
+
+/* tablet */
+
+@media (min-width: 834px) {
+
+    .menu__container {
+        left: 0;
+        height:auto;
+        width: 100%;
+        top: 80px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
 }
